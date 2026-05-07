@@ -1,0 +1,181 @@
+descrizione,categoria
+pizza margherita,Cibo
+caffè al bar,Cibo
+pranzo in mensa,Cibo
+spesa al supermercato,Cibo
+frutta e verdura dal fruttivendolo,Cibo
+panino con prosciutto,Cibo
+gelato in gelateria,Cibo
+cena al ristorante,Cibo
+sushi take away,Cibo
+pane e latte,Cibo
+pasta e sugo,Cibo
+pollo arrosto dal macellaio,Cibo
+acqua minerale,Cibo
+birra al pub,Cibo
+cornetto e cappuccino,Cibo
+hamburger e patatine,Cibo
+insalata mista,Cibo
+formaggio parmigiano,Cibo
+yogurt e cereali,Cibo
+torta di compleanno,Cibo
+cioccolata calda,Cibo
+aperitivo con amici,Cibo
+dolci dalla pasticceria,Cibo
+pesce fresco al mercato,Cibo
+vino rosso,Cibo
+tramezzino in autogrill,Cibo
+mozzarella di bufala,Cibo
+olio extravergine,Cibo
+biscotti e merendine,Cibo
+succo di frutta,Cibo
+benzina auto,Trasporti
+biglietto metro,Trasporti
+abbonamento treno mensile,Trasporti
+taxi per aeroporto,Trasporti
+biglietto autobus,Trasporti
+parcheggio centro,Trasporti
+pedaggio autostrada,Trasporti
+noleggio auto,Trasporti
+ricarica telepass,Trasporti
+biglietto treno roma milano,Trasporti
+uber per centro città,Trasporti
+gasolio macchina,Trasporti
+monopattino elettrico sharing,Trasporti
+car sharing enjoy,Trasporti
+biglietto aereo ryanair,Trasporti
+revisione auto,Trasporti
+cambio gomme,Trasporti
+lavaggio auto,Trasporti
+assicurazione auto,Trasporti
+multa parcheggio,Trasporti
+bollo auto,Trasporti
+tagliando macchina,Trasporti
+riparazione carrozzeria,Trasporti
+diesel al distributore,Trasporti
+abbonamento atm milano,Trasporti
+treno regionale,Trasporti
+volo low cost,Trasporti
+bici in sharing,Trasporti
+GPL auto,Trasporti
+cambio olio motore,Trasporti
+affitto mensile,Casa
+bolletta luce enel,Casa
+bolletta gas,Casa
+bolletta acqua,Casa
+internet fibra,Casa
+rata mutuo,Casa
+condominio mensile,Casa
+riparazione lavatrice,Casa
+detersivo e prodotti pulizia,Casa
+mobili ikea,Casa
+tassa rifiuti tari,Casa
+idraulico bagno,Casa
+elettricista,Casa
+materasso nuovo,Casa
+tende per camera,Casa
+lampadine led,Casa
+filtri condizionatore,Casa
+asciugamani nuovi,Casa
+piatti e bicchieri,Casa
+aspirapolvere nuovo,Casa
+vernice per pareti,Casa
+serratura porta,Casa
+antenna tv,Casa
+caldaia manutenzione,Casa
+coperte invernali,Casa
+tappeto salotto,Casa
+zanzariere finestre,Casa
+scope e secchio,Casa
+mensola per libreria,Casa
+cuscini divano,Casa
+visita medica specialistica,Salute
+farmaci prescrizione,Salute
+analisi del sangue,Salute
+dentista pulizia denti,Salute
+occhiali da vista nuovi,Salute
+integratori vitamine,Salute
+visita oculistica,Salute
+fisioterapia schiena,Salute
+ticket pronto soccorso,Salute
+crema solare protezione,Salute
+antidolorifico tachipirina,Salute
+visita dermatologica,Salute
+vaccino antinfluenzale,Salute
+lenti a contatto,Salute
+radiografia torace,Salute
+ecografia addominale,Salute
+antibiotico amoxicillina,Salute
+cerotti e disinfettante,Salute
+collutorio e dentifricio,Salute
+termometro digitale,Salute
+visita ortopedica,Salute
+esame urine,Salute
+integratore magnesio,Salute
+spray nasale,Salute
+sciroppo per tosse,Salute
+plantari ortopedici,Salute
+tampone covid,Salute
+pomata per dolori,Salute
+visita ginecologica,Salute
+psicoterapia seduta,Salute
+cinema con amici,Intrattenimento
+abbonamento netflix,Intrattenimento
+concerto dal vivo,Intrattenimento
+biglietto stadio,Intrattenimento
+abbonamento spotify,Intrattenimento
+videogioco ps5,Intrattenimento
+libro romanzo,Intrattenimento
+museo ingresso,Intrattenimento
+teatro spettacolo,Intrattenimento
+parco divertimenti,Intrattenimento
+bowling serata,Intrattenimento
+escape room,Intrattenimento
+abbonamento palestra,Intrattenimento
+corso di nuoto,Intrattenimento
+lezione di yoga,Intrattenimento
+noleggio film,Intrattenimento
+rivista settimanale,Intrattenimento
+puzzle e giochi tavolo,Intrattenimento
+biglietto luna park,Intrattenimento
+karaoke serata,Intrattenimento
+abbonamento amazon prime,Intrattenimento
+corso di cucina,Intrattenimento
+partita calcetto,Intrattenimento
+abbonamento disney plus,Intrattenimento
+fumetto manga,Intrattenimento
+audiolibro,Intrattenimento
+corso fotografia,Intrattenimento
+biglietto zoo,Intrattenimento
+festival musicale,Intrattenimento
+visita guidata città,Intrattenimento
+ricarica telefono,Altro
+regalo compleanno amico,Altro
+abbigliamento maglietta,Altro
+scarpe nuove,Altro
+zaino scuola,Altro
+taglio capelli barbiere,Altro
+lavanderia abiti,Altro
+francobolli posta,Altro
+donazione beneficenza,Altro
+assicurazione vita,Altro
+commercialista dichiarazione,Altro
+corso online udemy,Altro
+cancelleria quaderni,Altro
+batterie ricaricabili,Altro
+chiavetta usb,Altro
+cavo caricatore telefono,Altro
+custodia smartphone,Altro
+ombrello nuovo,Altro
+giocattolo per bambino,Altro
+fiori per anniversario,Altro
+valigia viaggio,Altro
+crema viso,Altro
+profumo regalo,Altro
+cibo per gatto,Altro
+veterinario visita,Altro
+tintoria giacca,Altro
+fotografie stampate,Altro
+riparazione telefono,Altro
+abbonamento giornale,Altro
+cartucce stampante,Altro

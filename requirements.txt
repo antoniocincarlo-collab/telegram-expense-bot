@@ -1,0 +1,37 @@
+# === Telegram Bot Framework ===
+aiogram>=3.4,<4.0
+
+# === Database ===
+asyncpg>=0.29
+
+# === OCR ===
+easyocr>=1.7
+
+# === NLP ===
+spacy>=3.7
+
+# === ML ===
+scikit-learn>=1.4
+joblib>=1.3
+
+# === LLM Fallback ===
+groq>=0.4
+
+# === Immagini ===
+Pillow>=10.0
+
+# === Grafici ===
+matplotlib>=3.8
+
+# === PDF Export ===
+reportlab>=4.1
+
+# === CSV / Data ===
+pandas>=2.1
+
+# === Configurazione ===
+python-dotenv>=1.0
+
+# === HTTP (Tink PSD2) ===
+requests>=2.31
+aiohttp>=3.9
