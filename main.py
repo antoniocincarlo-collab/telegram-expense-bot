@@ -530,7 +530,30 @@ async def on_shutdown():
 async def main():
     dp.startup.register(on_startup)
     dp.shutdown.register(on_shutdown)
-    await dp.start_polling(bot)
+
+    # === Health check web server per Render ===
+    # Render Web Service richiede una porta HTTP aperta
+    from aiohttp import web
+
+    async def health_handler(request):
+        return web.Response(text="OK - Expense Bot running")
+
+    app = web.Application()
+    app.router.add_get("/", health_handler)
+    app.router.add_get("/health", health_handler)
+
+    port = int(os.getenv("PORT", "10000"))
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, "0.0.0.0", port)
+    await site.start()
+    logger.info(f"Health check server avviato su porta {port}")
+
+    # Avvia bot polling
+    try:
+        await dp.start_polling(bot)
+    finally:
+        await runner.cleanup()
 
 
 if __name__ == "__main__":
