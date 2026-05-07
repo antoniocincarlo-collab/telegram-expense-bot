@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS gruppi (
     created_at  TIMESTAMPTZ DEFAULT NOW()
 );
 
-CREATE INDEX idx_gruppi_owner ON gruppi(owner_id);
-CREATE INDEX idx_gruppi_invite ON gruppi(invite_token);
+CREATE INDEX IF NOT EXISTS idx_gruppi_owner ON gruppi(owner_id);
+CREATE INDEX IF NOT EXISTS idx_gruppi_invite ON gruppi(invite_token);
 
 -- ----- TABELLA MEMBRI GRUPPO -----
 CREATE TABLE IF NOT EXISTS membri_gruppo (
@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS membri_gruppo (
     UNIQUE(group_id, user_id)
 );
 
-CREATE INDEX idx_membri_group ON membri_gruppo(group_id);
-CREATE INDEX idx_membri_user  ON membri_gruppo(user_id);
+CREATE INDEX IF NOT EXISTS idx_membri_group ON membri_gruppo(group_id);
+CREATE INDEX IF NOT EXISTS idx_membri_user  ON membri_gruppo(user_id);
 
 -- ----- TABELLA CATEGORIE -----
 CREATE TABLE IF NOT EXISTS categorie (
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS categorie (
     UNIQUE(group_id, nome)
 );
 
-CREATE INDEX idx_categorie_group ON categorie(group_id);
+CREATE INDEX IF NOT EXISTS idx_categorie_group ON categorie(group_id);
 
 -- ----- TABELLA SPESE -----
 CREATE TABLE IF NOT EXISTS spese (
@@ -52,11 +52,11 @@ CREATE TABLE IF NOT EXISTS spese (
     created_at  TIMESTAMPTZ DEFAULT NOW()
 );
 
-CREATE INDEX idx_spese_group      ON spese(group_id);
-CREATE INDEX idx_spese_user       ON spese(user_id);
-CREATE INDEX idx_spese_data       ON spese(data);
-CREATE INDEX idx_spese_categoria  ON spese(categoria);
-CREATE INDEX idx_spese_group_data ON spese(group_id, data);
+CREATE INDEX IF NOT EXISTS idx_spese_group      ON spese(group_id);
+CREATE INDEX IF NOT EXISTS idx_spese_user       ON spese(user_id);
+CREATE INDEX IF NOT EXISTS idx_spese_data       ON spese(data);
+CREATE INDEX IF NOT EXISTS idx_spese_categoria  ON spese(categoria);
+CREATE INDEX IF NOT EXISTS idx_spese_group_data ON spese(group_id, data);
 
 -- ----- TABELLA BUDGETS -----
 CREATE TABLE IF NOT EXISTS budgets (
@@ -67,7 +67,7 @@ CREATE TABLE IF NOT EXISTS budgets (
     UNIQUE(group_id, categoria)
 );
 
-CREATE INDEX idx_budgets_group ON budgets(group_id);
+CREATE INDEX IF NOT EXISTS idx_budgets_group ON budgets(group_id);
 
 -- ----- TABELLA ML_DATA (storico per training) -----
 CREATE TABLE IF NOT EXISTS ml_data (
@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS ml_data (
     created_at  TIMESTAMPTZ DEFAULT NOW()
 );
 
-CREATE INDEX idx_ml_data_categoria ON ml_data(categoria);
+CREATE INDEX IF NOT EXISTS idx_ml_data_categoria ON ml_data(categoria);
 
 -- ----- TABELLA UTENTI (mapping telegram_id → gruppo attivo) -----
 CREATE TABLE IF NOT EXISTS utenti (
